@@ -39,6 +39,6 @@ final cart = [{
   'title' : 'jordan shoes',
   'company': 'Adidas',
   'price': 89.99,
-  'sizes': [8, 9, 10, 11],
+  'size': 8,
   'imageUrl': 'assets/images/img_3.png', //stuff to be shown in the cart
 }];

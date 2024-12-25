@@ -29,10 +29,13 @@ class productCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: Theme.of(context).textTheme.titleMedium,),
+          Text(title, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
           const SizedBox(height: 5,),
-          Text('\$$price',style: Theme.of(context).textTheme.bodySmall,),
-          Center(child: Image.asset(image,height: 175,))
+          Text('\$$price',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(child: Image.asset(image,height: 175,)),
+          )
         ],
       ),
     );
