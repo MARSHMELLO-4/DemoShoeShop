@@ -2,6 +2,11 @@
 
 A simple Flutter application to simulate a basic e-commerce app.
 
+<video width="320" height="240" controls>
+    <source src="https://github.com/MARSHMELLO-4/DemoShoeShop/blob/master/assets/video/AppTutorial.webm" type="video/webm">
+    <source src="https://github.com/MARSHMELLO-4/DemoShoeShop/blob/master/assets/video/AppTutorial.mp4" type="video/mp4"> Your browser does not support the video tag.
+</video>
+
 **Features**
 
 * Browse through a list of products
